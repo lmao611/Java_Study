@@ -7,8 +7,8 @@ public class Main {
         // Ref: a varible point to an address, if 1 ref change then all the ref that have the same address changed too
         // Comparing example: Pri like bulbs that have independent flicks, while Ref have 1 switch connect to all.
         double GPA = 3.1;
-        double BonusGPA = 0.44;
-        GPA = GPA - Math.sin(GPA+BonusGPA-1);
+        double BonusGPA = 1;
+        GPA = GPA - Math.sin(GPA+BonusGPA-2);
         System.out.println(GPA);
     }
 }
