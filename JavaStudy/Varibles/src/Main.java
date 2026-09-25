@@ -7,5 +7,6 @@ public class Main {
         // Ref: a varible point to an address, if 1 ref change then all the ref that have the same address changed too
         // Comparing example: Pri like bulbs that have independent flicks, while Ref have 1 switch connect to all.
         int age = 19;
+        System.out.println(age);
     }
 }
