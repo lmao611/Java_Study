@@ -5,6 +5,8 @@ public class Main{
     }
 
     void test(){
-        System.out.println("TEST!");
+        for (int i = 0; i<5;i++){
+            System.out.println("TEST!");
+        }
     }
 }
