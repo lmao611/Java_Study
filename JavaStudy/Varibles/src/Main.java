@@ -8,7 +8,7 @@ public class Main {
         // Comparing example: Pri like bulbs that have independent flicks, while Ref have 1 switch connect to all.
         double GPA = 3.1;
         double BonusGPA = 0.44;
-        GPA = GPA - Math.sin(GPA+BonusGPA);
+        GPA = GPA - Math.sin(GPA+BonusGPA-1);
         System.out.println(GPA);
     }
 }
