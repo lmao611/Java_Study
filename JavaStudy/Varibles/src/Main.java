@@ -9,8 +9,6 @@ public class Main {
         double GPA = 3.1;
         double BonusGPA = 1;
         GPA = GPA - Math.sin(GPA+BonusGPA-2);
-        double BonusGPA = 2.4;
-        GPA = GPA - Math.sin(GPA+BonusGPA-1.5);
         System.out.println(GPA);
         //Similar to C/C++, GML; double, boolean and char work quite the same
 
