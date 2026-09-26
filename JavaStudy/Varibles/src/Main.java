@@ -10,5 +10,7 @@ public class Main {
         double BonusGPA = 1;
         GPA = GPA - Math.sin(GPA+BonusGPA-2);
         System.out.println(GPA);
+        //Similar to C/C++, GML; double, boolean and char work quite the same
+
     }
 }
