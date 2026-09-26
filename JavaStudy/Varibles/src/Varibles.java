@@ -1,4 +1,4 @@
-public class Main {
+public class Varibles {
     public static void main(String[] args) {
         // Primitive and Reference
         // Pri: int, double, boolean, char
